@@ -1,0 +1,18 @@
+pp1:    null fib()
+pp2:    [
+pp3:        integer_2 @ans = 0;
+pp4:        integer_2 1st = 0;
+pp5:        integer_2 2nd = 0;
+pp6:        integer_2 num = 10;
+pp7:    
+pp8:        num = num - 1;
+pp9:        @ans = 1st + 2nd;
+pp10:        1st = 2nd;
+pp11:        2nd = @ans;
+pp12:    
+pp13:        in case that num gt 1
+pp14:        do
+pp15:        [
+pp16:            jump to pp8;
+pp17:        ]
+pp18:    ]
