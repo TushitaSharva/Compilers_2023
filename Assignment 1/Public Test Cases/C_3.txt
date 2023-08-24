@@ -1,0 +1,9 @@
+void lcm()
+{
+    int n1 = 15;
+    int n2 = 10;
+    int ans = n1;
+
+    if((ans % n1 != 0) || (ans % n2 != 0)) ans = ans + 1;
+    else jump to pp7; 
+}

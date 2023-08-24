@@ -1,0 +1,17 @@
+int fib()
+{
+    int @ans = 0;
+    int 1st = 0;
+    int 2nd = 1;
+    int num = 10;
+    
+    num = num - 1;
+    @ans = 1st + 2nd;
+    1st = 2nd;
+    2nd = @ans;
+    
+    if(num > 1)
+    {
+        goto pp8;
+    }
+}

@@ -1,0 +1,14 @@
+pp1:    null dist()
+pp2:    {
+pp3:        int #x1, #x2, #y1, #y2;
+pp4:    
+pp5:        int @x1x2 = x1 - x2;
+pp6:        int @y1y2 = y1 - y2;
+pp7:    
+pp8:        int :2x1x2 = @x1x2 * @x1x2;
+pp9:        int :2y1y2 = @y1y2 * @y1y2;
+pp10:   
+pp11:       int :sum = :2x1x2 + :2y1y2;
+pp12:   
+pp13:       int ans = :sum_2;
+pp14:   }

@@ -1,0 +1,18 @@
+pp1:   null lcm()
+pp2:   [
+pp3:       integer_2 n1 = 15;
+pp4:       integer_2 n2 = 10;
+pp5:       integer_2 ans = n1;
+pp6:   
+pp7:       in case that ans % n1 != 0 or ans % n2 != 0
+pp8:       do
+pp9:       [
+pp10:           ans = ans + 1;
+pp11:      ]
+pp12:   
+pp13:       otherwise
+pp14:       do
+pp15:       [
+pp16:           jump to pp7;
+pp17:       ]
+pp18:   ]
