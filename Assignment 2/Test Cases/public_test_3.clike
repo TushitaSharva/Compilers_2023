@@ -1,0 +1,14 @@
+local int main()
+{
+    declare int i, sum;
+    expr i = 1;
+    expr sum = 0;
+    
+    loop while (i lteq 10)
+    {
+        expr sum = add(sum, i);
+        postincr(i);
+    }
+
+    return sum;
+}
